@@ -1,6 +1,8 @@
 # ascii-chart
 asciis... all of them
 
+look at own risk, *https://kokorocks.github.io/ascii-chart/*
+
 the python code i used
 ```python
 def print_ascii_characters():
