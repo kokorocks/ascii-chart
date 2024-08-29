@@ -134,3 +134,4 @@ all of the asciis
 ```
 
 there are around 55296 ascii characters in existence and only 14355 characters that are not null or a space or something like that
+and there are so many characters it would take about 7 hours to count every charecter, that's a long time
