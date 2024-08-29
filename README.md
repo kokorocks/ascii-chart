@@ -82,7 +82,8 @@ def generate_html_chart():
         """
     
     # ASCII control characters range from 0 to 31 and 127
-    '''for code in range(0, 32):
+    
+    for code in range(0, 32):
         char = chr(code) if code != 0 else 'NUL'  # NUL for 0
         decimal = code
         hex_code = format(code, 'X')
@@ -108,7 +109,7 @@ def generate_html_chart():
             <td>{hex_code}</td>
             <td>{binary}</td>
         </tr>
-    """'''
+    """
     
     html_content += """
         </table>
