@@ -9,7 +9,7 @@ def print_ascii_characters():
     print(f"{'Char':<6} {'Decimal':<10} {'Hex':<6} {'Binary':<10}")
     print("-" * 32)
     
-    # ASCII printable characters range from 0 to 126
+    # ASCII printable characters range from 0 to 55296
     for code in range(0, 55296):
         char = chr(code)
         decimal = code
@@ -17,7 +17,7 @@ def print_ascii_characters():
         binary = format(code, '08b')  # 8-bit binary format
         print(f"{char:<6} {decimal:<10} {hex_code:<6} {binary:<10}")
     
-    # ASCII control characters range from 0 to 31 and 127
+    
     # ASCII 127 (DEL)
     char = chr(127)
     decimal = 127
