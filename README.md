@@ -1,5 +1,6 @@
 # ascii-chart
 asciis... all of them
+> **Note:** Most asciis are broken and can't be rendered correctly and can cause some interesting problems.
 
 look at own risk, *https://kokorocks.github.io/ascii-chart/*
 
